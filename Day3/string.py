@@ -51,9 +51,31 @@ for i in name:
 
 print("Number of vowels:", count)"""
 
-for i in range(5):
+"""for i in range(5):
     print(i)
     if i==3:
         break
     name="python"
-    print(f"hi my name is {name} and i am famous for ml,dl")
+    print(f"hi my name is {name} and i am famous for ml,dl")"""
+
+for x in "banana":
+    print(x)
+
+    txt= "the best in the life are free"
+    print("free" in txt)
+
+    txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
+
+  b = "Hello, World!"
+print(b[-5:-2])
+
+a="hello, world"
+print(a.strip())
+
+name="    Gauri"
+print(name.strip())
+
+age=int(input("enter your age"))
+print(age +5)
